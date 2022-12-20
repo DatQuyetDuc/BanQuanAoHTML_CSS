@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+  
+}
+header.sticky{
+   padding: 10px 0px;
+   background-color: rgba(40, 40, 40, 0.75);
+   color: #fff;
+   transition: all 0.3s;
+} 
+header.sticky .thanhcongcu{
+    height: 24px;
+    color: #fff;
+    margin-top: -8px;
+}
+header.sticky .thanhcongcu .shopcha>a{
+    color: #fff;
+    font-size: 14px;
+    padding-right: 50px;
+
+    
+    font-family: courier new;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.thanhcongcu .shopcha>a{
+    font-family: courier new;
+    font-size: 16px;
+    /* font-weight: bolder; */
+}
+header.sticky .headercon{
+    display: none;
+}
+header:hover{
+    color: #fff;
+    background: rgba(40, 40, 40, 0.75);
+}
+header:hover .sign{
+    color: #fff;
+}
+.headercon{
+    display: flex;
+    height: 70px;
+    /* background-color: rgb(90, 90, 90); */
+    padding: 3px 10px 15px 10px;
+    justify-content: space-between;
+
+    
+}
+
+.headercon .mid img{
+    width: 145px;
+}
+.logoHD{
+    width: 25px;
+}
+.left a{
+    
+    line-height: 70px;
+}
+.sdt{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    line-height: 52px;
+    padding-left: 10px;
+    opacity: 0.9;
+    font-weight: lighter;
+}
+.mid{
+    display: flex;
+    align-items: center;
+}
+.right a{
+    text-decoration: none;
+}
+.right .sign{
+    font-size: 16px;
+    opacity: 0.8;
+    font-family: Georgia;
+    line-height: 52px;
+    position: relative;
+    top: -8px;
+    padding-right: 10px;
+    opacity: 0.9;
+    color: #000;
+}
+.right a:not(.sign){
+    line-height: 72px;
+    padding: 0px 5px;
+}
+.thanhcongcu .ulcha{
+    display: flex;
+    height: 30px;
+    /* background-color: rgb(90, 90, 90); */
+    justify-content: center;
+}
+.ulcha .shopcha>a{
+    color: #000;
+    opacity: 1.65;
+}
+.thanhcongcu ul li{
+    list-style-type: none;
+}
+.thanhcongcu .shopcha >a{
+    text-decoration: none;
+    padding: 10px;
+}
+.shop{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #fff;
+  position: absolute;
+  display: none;
+  margin-top: -6px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.shop li{
+    border-bottom: outset 0.1px;
+}
+.shop li a{
+    display: block;
+  color: #000;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.shop li a:hover{
+    
+    color: red;
+}
+.shopcha{
+    position: relative;
+    line-height: 37.33px;
+}
+.shopcha:hover .shop{
+    display: block;
+}
+.banner img{
+    width: 105%;
+    
+    /* min-height: 700px;
+    background-repeat: no-repeat; */
+}
+.contentAnh img{
+width: 100%;
+}
+.buttonshopnow{
+    text-align: center;
+}
+.buttonshopnow p{
+    opacity: 0.5;
+    font-family: sans-serif;
+}
+.buttonshopnow a{
+    display: inline-block;
+    width: 126.67px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    margin-top: 15px;
+    
+}
+.contentanh2 a{
+    display: flex;
+}
+.contentanh2 img{
+    width: calc(100%/3);
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.tieude h2{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: .01em;
+    margin: 20px 0px 10px 0px;
+}
+.anhsellerALL{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 736.39px;
+}
+.anhsellerALL .anhseller{
+    padding: 0px 15px 15px 15px;
+}
+.anhsellerALL .anhseller img{
+    width: 172.93px;
+}
+.nhapEmail{
+    text-align: center;
+    height: 300px;
+    background-color: #ccc;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nhapEmail a{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 39px;
+    line-height: 29px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 900;
+   
+}
+.nhapEmail input{
+    height: 40px;
+    width: 308px;
+  
+}
+.nhapEmail p{
+    float: left;
+    font-family: system-ui;
+    line-height: 70px;
+    opacity: 0.75;
+}
+.footer{
+    padding: 30px 0px;
+    background: #000;
+    color: #fff;
+}
+.footerConC1{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.item h4{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+.item a{
+    text-decoration: none;
+    color: #fff;
+}
+.item a img{
+    width: 30px;
+}
+.item ul li{
+    list-style: none;
+    line-height: 28px;
+}
+.item ul li a:hover{
+    color: red;
+}

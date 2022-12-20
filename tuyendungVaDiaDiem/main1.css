@@ -1,0 +1,60 @@
+section{
+    display: block;
+}
+body {
+    color: black;
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.25px;
+}
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col-md-12, col-sm-12{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.col-sm-12{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.title-head {
+    font-size: 1.42857em;
+    color: #333;
+    
+}
+.title-head a {
+    color: #333;
+    font-size: 1.42857em;
+    text-decoration: none;
+}
+p {
+    margin: 0 0 15px 0;
+}
+strong {
+    font-weight: bold;
+}
+.fixIndex{
+    margin-top: 108px;
+}
+.title-head a{
+    text-decoration: none;
+}
+.page {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+rte > div {
+    margin-bottom: 15px;
+}
